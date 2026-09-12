@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Nayaka Ziff Media | Global News, East-West Geopolitics & Podcasts</title>
+  <meta name="title" content="Nayaka Ziff Media | Global News, East-West Geopolitics & Podcasts" />
+  <meta name="description" content="Independent broadcast journalism bridging East and West. Real-time global affairs, FIFA World Cup 2026 coverage, macro-economic insights, and the East West Paragraph podcast." />
+  <meta name="keywords" content="Nayaka Ziff Media, East West Paragraph, World News, FIFA World Cup 2026, FWC26 NYNJ, FWC26 Vancouver, Geopolitics, Global Economy" />
+  <meta name="author" content="Nayaka Ziff Media" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://nayakaziffmedia.com/" />
+  <meta property="og:title" content="Nayaka Ziff Media | Global News, East-West Geopolitics & Podcasts" />
+  <meta property="og:description" content="Independent broadcast journalism bridging East and West. Analysis, FIFA World Cup 2026 reports, and podcast episodes." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Twitter / X -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://nayakaziffmedia.com/" />
+  <meta property="twitter:title" content="Nayaka Ziff Media | Global News & In-Depth Insights" />
+  <meta property="twitter:description" content="Independent journalism covering global economics, geopolitics, and world sports." />
+  <meta property="twitter:image" content="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              red: '#e50914',
+              dark: '#0b0f19',
+              card: '#111827',
+              muted: '#9ca3af'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Schema.org Structured Data for Google Rich Snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "NewsMediaOrganization",
+        "@id": "https://nayakaziffmedia.com/#organization",
+        "name": "Nayaka Ziff Media",
+        "url": "https://nayakaziffmedia.com",
+        "foundingDate": "2012",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "SG"
+        },
+        "sameAs": [
+          "https://www.instagram.com/nayakazifftv",
+          "https://www.youtube.com/@nayakazifftv"
+        ],
+        "description": "Global broadcasting & media production network providing critical geopolitical analysis, sports reporting, and podcast perspectives."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://nayakaziffmedia.com/#website",
+        "url": "https://nayakaziffmedia.com",
+        "name": "Nayaka Ziff Media",
+        "publisher": { "@id": "https://nayakaziffmedia.com/#organization" }
+      }
+    ]
+  </script>
+</head>
+
+<body class="bg-[#0a0e17] text-gray-100 font-sans antialiased selection:bg-brand-red selection:text-white">
+
+  <!-- Top Breaking News Bar -->
+  <div class="bg-brand-red/90 text-white text-xs font-semibold px-4 py-1.5 flex items-center justify-between tracking-wide">
+    <div class="container mx-auto flex items-center space-x-3 overflow-hidden">
+      <span class="bg-white text-brand-red uppercase px-2 py-0.5 rounded text-[10px] font-black tracking-widest">LIVE</span>
+      <p class="truncate">East-West Paragraph: Global macro liquidity shifts and FIFA World Cup 2026 venue preparations underway.</p>
+    </div>
+    <span class="hidden md:inline-block text-[11px] opacity-80">HQ: Singapore 🇸🇬</span>
+  </div>
+
+  <!-- Primary Header & Navigation -->
+  <header class="border-b border-gray-800/80 sticky top-0 bg-[#0a0e17]/95 backdrop-blur-md z-50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="#" class="flex items-center space-x-3 group">
+        <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-cyan-600 via-blue-700 to-indigo-800 flex items-center justify-center font-black text-lg text-white shadow-lg shadow-blue-500/20">
+          NZ
+        </div>
+        <div>
+          <span class="text-xl font-extrabold tracking-tighter uppercase block leading-none group-hover:text-cyan-400 transition">NAYAKA ZIFF</span>
+          <span class="text-[10px] text-gray-400 tracking-widest uppercase font-medium">World News &bull; Podcast &bull; Insight</span>
+        </div>
+      </a>
+
+      <nav class="hidden lg:flex items-center space-x-8 text-sm font-medium text-gray-300">
+        <a href="#world-news" class="hover:text-white transition">World News</a>
+        <a href="#sports-fwc" class="hover:text-white transition flex items-center gap-1.5">
+          <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span> FIFA World Cup 2026
+        </a>
+        <a href="#insights" class="hover:text-white transition">Macro Insights</a>
+        <a href="#podcast" class="hover:text-white transition">East West Paragraph</a>
+        <a href="#network" class="hover:text-white transition">Global Bureaus</a>
+      </nav>
+
+      <div class="flex items-center space-x-3">
+        <a href="https://www.instagram.com/nayakazifftv" target="_blank" rel="noopener noreferrer" class="bg-gradient-to-r from-purple-600 to-pink-600 text-white text-xs font-semibold px-4 py-2 rounded-full hover:opacity-90 transition shadow-md">
+          Follow @nayakazifftv
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-8">
+    
+    <!-- Hero / Main Editorial Feature -->
+    <section class="mb-14">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-gray-900/60 border border-gray-800 rounded-2xl overflow-hidden p-6 lg:p-8">
+        <div class="lg:col-span-7 space-y-4">
+          <div class="flex items-center space-x-2 text-xs font-semibold tracking-wider text-cyan-400 uppercase">
+            <span>Special Report</span>
+            <span>&bull;</span>
+            <span>Geopolitics & Markets</span>
+          </div>
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black leading-tight tracking-tight text-white">
+            Bridging East & West: The Re-alignment of Global Commerce, Technology, and Sovereignty
+          </h1>
+          <p class="text-gray-400 text-base lg:text-lg leading-relaxed">
+            From our central broadcast desk in Singapore to correspondents spanning Europe and the Americas, Nayaka Ziff Media delivers real-time breakdown on global leadership, defense logistics, and capital movement.
+          </p>
+          <div class="pt-2 flex flex-wrap gap-4 items-center text-sm">
+            <a href="#podcast" class="bg-blue-600 hover:bg-blue-500 text-white font-semibold px-6 py-2.5 rounded-lg transition shadow-lg shadow-blue-600/30">
+              Listen to Latest Dispatch
+            </a>
+            <span class="text-xs text-gray-500">Updated Daily &bull; Verified Editorial Standards</span>
+          </div>
+        </div>
+        <div class="lg:col-span-5 relative aspect-video lg:aspect-square rounded-xl overflow-hidden bg-gray-800">
+          <img 
+            src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80" 
+            alt="Global News and Tech Connectivity" 
+            class="w-full h-full object-cover" 
+            loading="lazy" 
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-4">
+            <p class="text-xs text-gray-300 font-mono">BROADCAST 2012 FB TO ALL &gt; 2050</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cluster 1: FIFA World Cup 2026 Hub -->
+    <section id="sports-fwc" class="mb-14 scroll-mt-24">
+      <div class="flex items-center justify-between border-b border-gray-800 pb-4 mb-6">
+        <div>
+          <span class="text-xs font-bold text-green-400 uppercase tracking-widest">Host City Intelligence</span>
+          <h2 class="text-2xl font-black tracking-tight text-white">FIFA World Cup 2026: North America Dispatch</h2>
+        </div>
+        <div class="text-xs text-gray-400 hidden sm:block">Coverage: @fwc26nynj &bull; @fwc26vancouver</div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <article class="bg-gray-900/40 border border-gray-800/80 rounded-xl p-5 hover:border-gray-700 transition flex flex-col justify-between">
+          <div>
+            <span class="text-[11px] font-bold text-blue-400 uppercase tracking-wider">MetLife Stadium / NYNJ</span>
+            <h3 class="text-lg font-bold text-white mt-1 mb-2 hover:text-cyan-400 cursor-pointer">
+              Transit Logistics & Infrastructure Readiness for the 2026 Final
+            </h3>
+            <p class="text-sm text-gray-400 leading-relaxed">
+              Evaluating the high-capacity rail expansions and regional transit security blueprints linking Manhattan to New Jersey for matchday operations.
+            </p>
+          </div>
+          <span class="text-xs text-gray-500 mt-4 block">Sports Desk &bull; 4 min read</span>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="bg-gray-900/40 border border-gray-800/80 rounded-xl p-5 hover:border-gray-700 transition flex flex-col justify-between">
+          <div>
+            <span class="text-[11px] font-bold text-teal-400 uppercase tracking-wider">BC Place / Vancouver</span>
+            <h3 class="text-lg font-bold text-white mt-1 mb-2 hover:text-cyan-400 cursor-pointer">
+              Pacific Gateway: Venue Modernization & Fan Zone Planning
+            </h3>
+            <p class="text-sm text-gray-400 leading-relaxed">
+              How Vancouver is balancing international fan surge management with sustainable urban transportation across British Columbia.
+            </p>
+          </div>
+          <span class="text-xs text-gray-500 mt-4 block">Sports Desk &bull; 5 min read</span>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="bg-gray-900/40 border border-gray-800/80 rounded-xl p-5 hover:border-gray-700 transition flex flex-col justify-between">
+          <div>
+            <span class="text-[11px] font-bold text-amber-400 uppercase tracking-wider">Tactical Analysis</span>
+            <h3 class="text-lg font-bold text-white mt-1 mb-2 hover:text-cyan-400 cursor-pointer">
+              Roster Depths & Managerial Rebuilds Ahead of the Expanded 48-Team Format
+            </h3>
+            <p class="text-sm text-gray-400 leading-relaxed">
+              Analyzing tactical shifts, sports science adaptations, and rotation strategies required for the expanded tournament schedule.
+            </p>
+          </div>
+          <span class="text-xs text-gray-500 mt-4 block">Analysis &bull; 6 min read</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- Cluster 2: Podcast Feature (East West Paragraph) -->
+    <section id="podcast" class="mb-14 scroll-mt-24">
+      <div class="bg-gradient-to-r from-blue-950/40 via-gray-900 to-purple-950/30 border border-blue-900/40 rounded-2xl p-6 lg:p-8">
+        <div class="max-w-3xl mb-6">
+          <span class="text-xs font-bold text-purple-400 uppercase tracking-widest">Audio & Video Broadcast</span>
+          <h2 class="text-3xl font-black text-white mt-1">East West Paragraph Podcast</h2>
+          <p class="text-sm text-gray-300 mt-2">
+            Unfiltered discourse crossing Eastern and Western spheres of political economy, technological sovereignty, and strategic foresight.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+          <div class="bg-[#0d131f] border border-gray-800 rounded-xl p-5 space-y-4">
+            <div class="flex items-center justify-between text-xs text-gray-400">
+              <span class="bg-red-600/20 text-red-400 px-2 py-0.5 rounded font-mono font-semibold">EPISODE #136</span>
+              <span>48 Minutes</span>
+            </div>
+            <h3 class="text-xl font-bold text-white">Private Capital, Sovereign Wealth, and the Race for Autonomous Infrastructure</h3>
+            <p class="text-xs text-gray-400">
+              Full audio stream and analytical transcript unpacking the latest corporate maneuvers by institutional giants and emerging tech ecosystems.
+            </p>
+            <div class="pt-2 flex items-center gap-3">
+              <a href="https://www.youtube.com/@nayakazifftv" target="_blank" class="bg-red-600 hover:bg-red-700 text-white text-xs font-bold px-4 py-2 rounded-lg transition inline-flex items-center gap-2">
+                Watch on YouTube
+              </a>
+              <button class="bg-gray-800 hover:bg-gray-700 text-gray-200 text-xs font-semibold px-4 py-2 rounded-lg transition">
+                Read Transcript
+              </button>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <h4 class="text-xs uppercase font-bold text-gray-400 tracking-wider">Recent Episodes in this Series:</h4>
+            <ul class="space-y-2 text-sm">
+              <li class="p-3 bg-gray-900/80 rounded-lg border border-gray-800/60 flex justify-between items-center hover:border-gray-700 cursor-pointer transition">
+                <span class="truncate pr-4 text-gray-200">#135: Deep Paragraphs: Asian Supply Chains and North American Demands</span>
+                <span class="text-xs text-gray-500 whitespace-nowrap">34 min</span>
+              </li>
+              <li class="p-3 bg-gray-900/80 rounded-lg border border-gray-800/60 flex justify-between items-center hover:border-gray-700 cursor-pointer transition">
+                <span class="truncate pr-4 text-gray-200">#134: Modern Sports Economics: Privatization of Global Tournaments</span>
+                <span class="text-xs text-gray-500 whitespace-nowrap">42 min</span>
+              </li>
+              <li class="p-3 bg-gray-900/80 rounded-lg border border-gray-800/60 flex justify-between items-center hover:border-gray-700 cursor-pointer transition">
+                <span class="truncate pr-4 text-gray-200">#133: Silicon Sovereignty: Emerging Superclusters in Southeast Asia</span>
+                <span class="text-xs text-gray-500 whitespace-nowrap">51 min</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cluster 3: Macro Insights & Global Desks -->
+    <section id="insights" class="mb-14 scroll-mt-24">
+      <h2 class="text-2xl font-black text-white mb-6">Macro Insights & Capital Shifts</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div class="bg-gray-900/30 border border-gray-800/80 p-4 rounded-xl">
+          <span class="text-[10px] font-bold text-indigo-400 uppercase">Corporate Strategy</span>
+          <h3 class="font-bold text-white mt-1 text-sm leading-snug">BlackRock & Institutional Asset Allocation</h3>
+          <p class="text-xs text-gray-400 mt-2">Analysis on commercial liquidity shifts and sovereign debt recalibration.</p>
+        </div>
+        <div class="bg-gray-900/30 border border-gray-800/80 p-4 rounded-xl">
+          <span class="text-[10px] font-bold text-amber-400 uppercase">Aerospace & Tech</span>
+          <h3 class="font-bold text-white mt-1 text-sm leading-snug">SpaceX Valuation Horizons & Commercial Orbit</h3>
+          <p class="text-xs text-gray-400 mt-2">Examining the financial implications for satellite broadband and private launch monopolies.</p>
+        </div>
+        <div class="bg-gray-900/30 border border-gray-800/80 p-4 rounded-xl">
+          <span class="text-[10px] font-bold text-emerald-400 uppercase">Basketball & Media</span>
+          <h3 class="font-bold text-white mt-1 text-sm leading-snug">Global Sports Syndication Rights</h3>
+          <p class="text-xs text-gray-400 mt-2">How streaming syndication deals are reshaping North American league revenues.</p>
+        </div>
+        <div class="bg-gray-900/30 border border-gray-800/80 p-4 rounded-xl">
+          <span class="text-[10px] font-bold text-rose-400 uppercase">Editorial Mission</span>
+          <h3 class="font-bold text-white mt-1 text-sm leading-snug">The 2012 to &gt;2050 Media Timeline</h3>
+          <p class="text-xs text-gray-400 mt-2">Sustaining independent digital journalism through continuous long-term analysis.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Global Bureau Network -->
+    <section id="network" class="bg-gray-900/40 border border-gray-800 rounded-xl p-6 text-center">
+      <h3 class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">Nayaka Ziff Global Bureau Reach</h3>
+      <div class="flex flex-wrap justify-center items-center gap-3 text-lg">
+        <span title="Singapore HQ">🇸🇬 Singapore (HQ)</span>
+        <span class="text-gray-600">&bull;</span>
+        <span title="Thailand">🇹🇭</span>
+        <span title="Indonesia">🇮🇩</span>
+        <span title="Spain">🇪🇸</span>
+        <span title="Canada">🇨🇦</span>
+        <span title="Denmark">🇩🇰</span>
+        <span title="Norway">🇳🇴</span>
+        <span title="Iceland">🇮🇸</span>
+        <span title="Greece">🇬🇷</span>
+        <span title="Turkey">🇹🇷</span>
+        <span title="Finland">🇫🇮</span>
+        <span title="United Kingdom">🇬🇧</span>
+        <span title="Switzerland">🇨🇭</span>
+      </div>
+      <p class="text-xs text-gray-500 mt-3 max-w-xl mx-auto">
+        Multi-regional perspective across ASEAN, Europe, and North America. Content published adhering to strict fact-verification protocols.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- High-Trust Footer -->
+  <footer class="border-t border-gray-800 bg-[#070b12] py-10 mt-12">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
+      <div>
+        <div class="text-lg font-black tracking-tight text-white uppercase">NAYAKA ZIFF MEDIA</div>
+        <p class="text-xs text-gray-400 mt-1">&copy; 2012–2026 Nayaka Ziff Media. All Rights Reserved.</p>
+      </div>
+
+      <div class="flex flex-wrap gap-6 text-xs text-gray-400">
+        <a href="https://www.instagram.com/nayakazifftv" target="_blank" class="hover:text-white transition">Instagram @nayakazifftv</a>
+        <a href="https://www.youtube.com/@nayakazifftv" target="_blank" class="hover:text-white transition">YouTube Live</a>
+        <a href="#" class="hover:text-white transition">Editorial Policy</a>
+        <a href="#" class="hover:text-white transition">RSS Feed</a>
+        <a href="#" class="hover:text-white transition">Press Contacts</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
